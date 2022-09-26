@@ -3,77 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"> 
     <title>Document</title>
 </head>
-<style>
-    body {
-        background-image: url('upi.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;  
-        background-size: cover;
-}
-    table, th, td {
-      border: 2px solid black;
-      border-collapse: collapse;
-      margin: 0px auto;
-      text-align: left;  
-      padding: 30px;    
-    }
-    table th {
-        padding: 1px 10px;
-        border-left:1px solid black;
-        border-bottom: 1px solid black;
-        background: rgb(202, 15, 140);
-    }
-    table td {
-        padding: 1px 10px;
-        border-left:1px solid black;
-        border-bottom: 1px solid black;
-        background: white;
-    }
-    </style>
-
-<body style="background-color:#ebdbf1;"></body>
+<body>
+    <!-- ini adalah header -->
     <header>
-        <h1>WELCOM TO INDONESIA UNIVERCITY OF EDUCATION</h1>
-        <style>
-            header {
-                background-color: rgb(202, 15, 140);
-                padding: 10px;
-                text-align: center;
-                font-size: 10px;
-                color: white;
-            }
-        </style>
+        <h1> Belajar membuat layout dengan HTML dan CSS</h1>
     </header>
-    <section>
-        <img src="img/Logo UPI-Universitas Pendidikan Indonesia.png" alt="logo UPI nih guys!" style="width: 20%; margin: 40px auto; display: block;">
-        <table style="border: 1px solid; text-align: left; margin: 0px auto;">
-        <table class="tb" style="width:400px;">
-            <p style=" font-family: courier;text-align: center;">Data Mahasiswa :</p>
-            <tr>
-              <th>Nama</th>
-              <td>Annisa Agni Annadiyanti</td>
-            </tr>
-            <tr>
-              <th>NIM</th>
-              <td>2100372</td>
-            </tr>
-            <tr>
-              <th>Prodi</th>
-              <td>Pendidikan Sistem dan Teknologi Informasi</td>
-            </tr>
-            <tr>
-                <th>Tanggal Lahir</th>
-                <td>21 Januari 2003</td>
-            </tr>
-          </table>
-    </section>
 
+    <!-- ini adalah navigasi menu -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ini adalah container -->
+    <div id="container">
+        <section class="kiri">
+            <div class="content">
+                <h3>Lorem Ipsum</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum veniam nam sunt expedita vero accusamus nobis atque id fuga eaque, facilis non in enim pariatur quas numquam corrupti voluptates a.
+                </p>
+                <button>Raed More...</button>
+            </div>
+            <div class="content">
+                <h3>Lorem Ipsum</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum veniam nam sunt expedita vero accusamus nobis atque id fuga eaque, facilis non in enim pariatur quas numquam corrupti voluptates a.
+                </p>
+                <button>Raed More...</button>
+            </div>
+        </section>
+
+        <section class="kanan">
+            <head>
+                <h4>CATEGORY</h4>
+            </head>
+        <ul>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">Javascript</a></li>
+            <li><a href="#">Bootsrap</a></li>
+            <li><a href="#">PHP</a></li>
+            <li><a href="#">MYSQL</a></li>
+            <li><a href="#">Laravel</a></li>
+         </ul>
+
+        </section>
+    </div>
+
+    <!-- ini adalah footer -->
     <footer>
-        
+        <p>Copyright PSTI 2022</p>
     </footer>
-    <body>
+
 </body>
 </html>
